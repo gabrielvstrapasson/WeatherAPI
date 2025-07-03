@@ -18,9 +18,18 @@
           type="search"
           name="city_name"
           id="city_name"
-          placeholder="Digite o nome da cidade"
+          placeholder="Informe o nome da cidade"
           
         />
+        <div id="country_code">
+        <input
+          type="search"
+          name="state_code"
+          id="state_code"
+          placeholder="País (sigla)"
+          
+        />
+        </div>
 
         <button type="submit">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -28,7 +37,7 @@
       </form>
 
       <div id="weather">
-        <h1 id="title">Colombo, BR</h1>
+        <h1 id="title"></h1>
 
         <div id="infos">
           <div id="temp">
@@ -39,8 +48,8 @@
             />
 
             <div>
-              <p id="temp_value">32<sup>°</sup>C</p>
-              <p id="temp_description">Ensolarado</p>
+              <p id="temp_value"></p>
+              <p id="temp_description"></p>
             </div>
           </div>
 
@@ -50,7 +59,7 @@
               <i id="temp_max_icon" class="fa-solid fa-temperature-high"></i>
               <div>
                 <h2>Temp. Max</h2>
-                <p id="temp_max">34
+                <p id="temp_max">
               </div>
             </div>
 
@@ -58,7 +67,7 @@
               <i id="temp_min_icon" class="fa-solid fa-temperature-low"></i>
               <div>
                 <h2>Temp. Min</h2>
-                <p id="temp_max">23<sup>°</sup>C</p>
+                <p id="temp_min"></p>
               </div>
             </div>
 
@@ -66,7 +75,7 @@
               <i id="humidity_icon" class="fa-solid fa-droplet"></i>
               <div>
                 <h2>Humidade</h2>
-                <p id="humidity">50%</p>
+                <p id="humidity"></p>
               </div>
             </div>
 
@@ -74,7 +83,7 @@
               <i id="wind_icon" class="fa-solid fa-wind"></i>
               <div>
                 <h2>Vento</h2>
-                <p id="wind">50 km/h</p>
+                <p id="wind"></p>
               </div>
             </div>
         </div>
