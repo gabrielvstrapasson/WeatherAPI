@@ -194,3 +194,12 @@ body {
     width: 200px;
     margin-top: 20px;
 }
+
+#map {
+  width: 100%; /* Ocupa toda a largura do container */
+  height: 300px; /* Defina uma altura para o mapa */
+  margin-top: 20px; /* Espaço entre o card de clima e o mapa */
+  border-radius: 8px; 
+}
+
+
